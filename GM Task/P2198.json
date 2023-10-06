@@ -1,0 +1,13 @@
+{"intents":[
+
+    {"tag":"Supplier",
+    "patterns":["Damaged HO2S","Damaged powertrain control module (PCM)","Damaged PCM"],
+    "responses":["Supplier"],
+    "context":[""]
+    },
+    {"tag":"Dealer",
+    "patterns":["Electrical:Short to VPWR in the harness or HO2S","Water in the harness connector","Open/shorted HO2S circuit","Corrosion or incorrect harness connections","Fuel System:Excessive fuel pressure","Leaking/contaminated fuel injectors","Leaking fuel pressure regulator","Low fuel pressure or running out of fuel","Low fuel pressure or running out of fuel","Vapor recovery system","Intake Air System:Air leaks after the mass air flow (MAF) sensor","Vacuum leaks","Positive crankcase ventilation (PCV) system","Improperly seated engine oil dipstick","Leaking gasket","Leaking diaphragm or EGR vacuum regulator","Stuck EGR valve","Oil overfill","Camshaft timing","Cylinder compression"," Exhaust leaks before or near the HO2S(s)"],
+    "responses":["Dealer"],
+    "context":[""]
+    }
+]}

@@ -1,0 +1,13 @@
+{"intents":[
+
+    {"tag":"OEM",
+    "patterns":["Damaged MAF sensor"],
+    "responses":["OEM"],
+    "context":[""]
+    },
+    {"tag":"Dealer",
+    "patterns":["MAF sensor disconnected","MAF circuit open to PCM","VPWR open to MAF sensor","PWR GND open to the MAF sensor","MAF RTN circuit open to PCM","MAF circuit shorted to GND","Intake air leak (near the MAF sensor)"],
+    "responses":["Dealer"],
+    "context":[""]
+    }
+]}
